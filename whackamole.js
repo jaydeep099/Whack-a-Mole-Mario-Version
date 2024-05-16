@@ -4,7 +4,10 @@ let score = 0;
 let gameover = false;
 
 window.onload = function () {
-  setGame();
+    setGame();
+    
+    const restartbtn = document.getElementById("restart");
+    restartbtn.addEventListener("click", restartfun);
 };
 
 function setGame() {
@@ -75,4 +78,20 @@ function selectTile() {
       "GAME OVER : " + score.toString();
     gameover = true;
   }
+}
+
+
+
+function restartfun(){
+    score = 0;
+    gameover =  false;
+    currMoleTile = null;
+    currPlantTile = null;
+    document.getElementById("score").innerText = score.toString();
+
+    for (let i = 0; i < 9; i++) {
+        document.getElementById(i.toString()).innerHTML = ""; 
+    }
+    clearInterval();
+    setInterval();
 }

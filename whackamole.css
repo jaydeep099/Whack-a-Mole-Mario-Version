@@ -36,3 +36,11 @@ body{
     -webkit-user-drag: none;
     -ms-user-select: none;
 }
+
+#restart{
+    width: 60px;
+    height: 50px;
+    background: url("./restart.png");
+    background-size: cover;
+    border: 0;
+}
