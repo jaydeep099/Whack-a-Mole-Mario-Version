@@ -1,7 +1,5 @@
 ## **Whack-a-Mole : Mario Version** 
 
-<br>
-
 ## **Description 📃**
 "Whack-a-Mole: Mario Version" is an engaging and interactive browser-based game inspired by the classic arcade game "Whack-a-Mole." In this Mario-themed adaptation, players must quickly react to moles and piranha plants popping up from different tiles on the game board. The objective is to "whack" the moles for points while avoiding the piranha plants that end the game when clicked.
 
